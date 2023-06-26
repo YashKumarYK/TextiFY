@@ -1,0 +1,37 @@
+
+.form{
+    display: flex;
+    align-content: center; 
+    justify-content: space-between;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+#clr-btn{
+    background-color: red;
+}
+
+#translator{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.language-select{
+    margin-top: 5px;
+    height:30px;
+    background-color: whitesmoke;
+}
+#translate{
+    height: 30px;
+    padding: 5px 5px;
+}
+#translator h3{
+    font-size: 20px;
+}
+@media screen and (max-width:770px) {
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
